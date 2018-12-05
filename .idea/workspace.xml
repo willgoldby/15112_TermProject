@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94c89723-54e8-452d-a1ad-f75ef8eabbba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI2.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,19 +41,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2" selection-start-column="2" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GUI2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2375">
-              <caret line="132" selection-start-line="132" selection-end-line="132" />
+            <state relative-caret-position="101">
+              <caret line="226" column="14" selection-start-line="226" selection-start-column="14" selection-end-line="226" selection-end-column="14" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -170,11 +162,11 @@
         <option value="$PROJECT_DIR$/isSentence.py" />
         <option value="$PROJECT_DIR$/deleteUnnecesaryWords.py" />
         <option value="$PROJECT_DIR$/sampleText2.txt" />
-        <option value="$PROJECT_DIR$/GUI2.py" />
         <option value="$PROJECT_DIR$/nominalization.py" />
         <option value="$PROJECT_DIR$/activePassive.py" />
         <option value="$PROJECT_DIR$/smallerSentenceWithBackTracking.py" />
         <option value="$PROJECT_DIR$/test.txt" />
+        <option value="$PROJECT_DIR$/GUI2.py" />
       </list>
     </option>
   </component>
@@ -378,12 +370,12 @@
       <workItem from="1543681561691" duration="37310000" />
       <workItem from="1543881091752" duration="12508000" />
       <workItem from="1544043689753" duration="1591000" />
-      <workItem from="1544048019548" duration="542000" />
+      <workItem from="1544048019548" duration="630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102307000" />
+    <option name="totallyTimeSpent" value="102395000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -492,16 +484,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/replaceword.py" />
-    <entry file="file://$PROJECT_DIR$/GUI2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2375">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sampleText2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -560,6 +542,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/smallerSentenceWithBackTracking.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -567,10 +556,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.txt">
+    <entry file="file://$PROJECT_DIR$/GUI2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        <state relative-caret-position="101">
+          <caret line="226" column="14" selection-start-line="226" selection-start-column="14" selection-end-line="226" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
