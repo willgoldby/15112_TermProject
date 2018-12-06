@@ -1,5 +1,7 @@
 import re
 
+'''Figured out how to do from Stack Overflow and other posts.'''
+
 def changeToUpperCase(matchObject):
     '''Returns changes to text that are called from .sub method for regular expressions in other function.'''
     period, letter = matchObject.group() # Returns a tuple of the matched elements.
