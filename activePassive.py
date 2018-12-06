@@ -24,8 +24,8 @@ def getSentenceParts(text):
     else:
         sentenceParts['passive'] = False
 
-    if sentenceParts['passive'] == True: # For debugging purposes
-        print (sentenceParts)
+    # if sentenceParts['passive'] == True: # For debugging purposes
+    #     print (sentenceParts)
     return sentenceParts
 
 

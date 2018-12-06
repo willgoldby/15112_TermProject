@@ -6,6 +6,8 @@ from activePassive import *
 from deleteUnnecesaryWords import *
 from nominalization import *
 from smallerSentenceWithBackTracking import *
+import re
+from regexFixing import *
 
 ########################
 #
@@ -170,8 +172,9 @@ def getContentFromTextBox():
 def changePassiveSentencesToActive():
     onScreenText = getContentFromTextBox()
     changedText = outputText(onScreenText)
+    inputText = createSpaceAfterPeriods(changedText)
     someText.delete("1.0", END)
-    someText.insert("1.0", changedText)
+    someText.insert("1.0", inputText)
 
 
        ########################################################
