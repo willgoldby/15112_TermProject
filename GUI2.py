@@ -172,7 +172,7 @@ def getContentFromTextBox():
 def changePassiveSentencesToActive():
     onScreenText = getContentFromTextBox()
     changedText = outputText(onScreenText)
-    inputText = createSpaceAfterPeriods(changedText)
+    inputText = fixErrors(changedText)
     someText.delete("1.0", END)
     someText.insert("1.0", inputText)
 
@@ -184,8 +184,9 @@ def changePassiveSentencesToActive():
 def removeUnnecessaryWordsFromText():
     onScreenText = getContentFromTextBox()
     changedText = removeUnnessaryWords(onScreenText)
+    inputText = fixErrors(changedText)
     someText.delete("1.0", END)
-    someText.insert("1.0", changedText)
+    someText.insert("1.0", inputText)
 
 
        ########################################################
@@ -195,8 +196,9 @@ def removeUnnecessaryWordsFromText():
 def checkNominalizations():
     onScreenText = getContentFromTextBox()
     changedText = nominalizationIdentification(onScreenText)
+    inputText = fixErrors(changedText)
     someText.delete("1.0", END)
-    someText.insert("1.0", changedText)
+    someText.insert("1.0", inputText)
 
 
        ###############################################
@@ -206,8 +208,9 @@ def checkNominalizations():
 def shortenSentences():
     onScreenText = getContentFromTextBox()
     changedText = makeSentenceSmaller(onScreenText)
+    inputText = fixErrors(changedText)
     someText.delete("1.0", END)
-    someText.insert("1.0", changedText)
+    someText.insert("1.0", inputText)
 
 
 ################################
