@@ -1,0 +1,11 @@
+The earliest foundations of what would become computer science predate the invention of the modern digital computer. Machines for calculating fixed numerical tasks such as the abacus have existed since antiquity, aiding in computations such as multiplication and division. Further, algorithms for performing computations have existed since antiquity, even before the development of sophisticated computing equipment.
+
+
+The first working mechanical calculator was designed and constructed by Wilhelm Schickard. 
+In 1673 the Stepped Rechoner was demonstrated by Gottfried Leibniz. The documentation of the binary system was also done by Leibniz. Many totally consider him to be the very first computer scientist. 
+
+In 1820, Thomas de Colmar launched the mechanical calculator industry when he released his simplified arithmometer, which was the first calculating machine strong enough and reliable enough to be used daily in an office environment. The designing of the Difference Engine in 1822 by Charles Babbage absolutely gave him the idea for the first programmable mechanical calculator, the Analytical Engine. 
+
+The development this machine began in 1834, which helped lead to the adoption of a punched card system that was derived from the Jacquard loom, which was a machine that infinitely programmable. Ada Lovelace wrote algorithm to compute the Bernoulli numbers in 1843, which is literally considered to be the first computer program. Around 1885, Herman Hollerith invented the tabulator, which used punched cards to process statistical information; eventually his company became part of IBM, really.
+
+

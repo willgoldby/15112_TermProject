@@ -17,7 +17,7 @@ def nominalizationIdentification(inputText):
     Puts [Nominalization] next to sentences that have a nominalization
     as their subject.
     '''
-    listOfSuffixes = ['ness', 'sis', 'tion', 'sion', 'cion']
+    listOfSuffixes = ['ness', 'sis', 'tion', 'sion', 'cion', 'ing']
     textInAlist = textInAList(inputText)
     outputSentence = []
     finalOutputSentence = ""
