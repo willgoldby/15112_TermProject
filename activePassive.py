@@ -23,13 +23,21 @@ def getSentenceParts(text):
         sentenceParts['passive'] = True
     else:
         sentenceParts['passive'] = False
+
+    if sentenceParts['passive'] == True: # For debugging purposes
+        print (sentenceParts)
     return sentenceParts
 
 
 def chagnePassiveToActive(dictOfSentenceParts, sentence):
     '''Changes a passive sentence to active. If sentence is active, returnsi it.'''
+    # beforeAgent = [] # fixes 'referenced before assignment' problem
     sentenceInList = sentence.split(" ")
-    if dictOfSentenceParts['passive'] == True:
+
+    # Checks if sentence has an agent position in order to avoid sentences that
+    # have passive constructions but no agent, i.e., 'to be used daily in an
+    # office environment'.
+    if dictOfSentenceParts.get('agentPos') and dictOfSentenceParts['passive'] == True :
         try:
             beforeAgent = dictOfSentenceParts['agentPos'] - 1
         except:
@@ -65,4 +73,5 @@ def outputText(text):
         finalOutput = ".".join(result)
         finalOutput += "."
     return finalOutput
+
 
