@@ -17,7 +17,7 @@ def nominalizationIdentification(inputText):
     Puts [Nominalization] next to sentences that have a nominalization
     as their subject.
     '''
-    listOfSuffixes = ['ness', 'sis', 'tion', 'sion', 'cion', 'ing', 'ment']
+    listOfSuffixes = ['ness', 'sis', 'tion', 'sion', 'cion', 'ing', 'ment', 'nesses', 'sises', 'tions', 'cions', 'ings']
     textInAlist = textInAList(inputText)
     outputSentence = []
     finalOutputSentence = ""
@@ -26,7 +26,7 @@ def nominalizationIdentification(inputText):
         for i,word in enumerate(nlpSentence):
             if word.dep_ == 'nsubj' or word.dep_ == 'nsubjpass':
                 subject = word.text
-                if subject[-4:] in listOfSuffixes or subject[-3:] in listOfSuffixes:
+                if (subject[-4:] in listOfSuffixes) or (subject[-3:] in listOfSuffixes) or (subject[-5:] in listOfSuffixes):
                     outputSentence.append(word.text + "[Nominalization]")
                 else:
                     outputSentence.append(word.text)
