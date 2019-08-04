@@ -4,7 +4,7 @@
 
 ## How to use
 1. Run the GUI2.py file
-2. When the GUI appears, click on the top button titled "Load text". Load a .txt file from your computer.
+2. When the GUI appears, click on the top button titled "Load text." Load a .txt file from your computer.
 3. Once the .txt is loaded, you can change the text's style by clicking on the other buttons. Each button will make changes to text, either by removing unnecessary words, showing where nominalizations are, changing passive voice to active voice, or shortening long sentences. 
 
 ## Necessary libraries
