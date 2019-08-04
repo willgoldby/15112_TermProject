@@ -1,4 +1,4 @@
-# 15112 Term Project
+# Term Project for 15-112, a computer science class at Carnegie Mellon University
 
 ## Project name: Prose Style Editor
 
